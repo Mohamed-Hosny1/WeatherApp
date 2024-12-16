@@ -1,0 +1,17 @@
+body {
+  background-image: url(../images/rain-window-sill-water-drops-bokeh-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+}
+input::placeholder {
+  color: burlywood;
+  font-size: 18px;
+}
+.nav-item .active,
+.nav-item a:focus {
+  border: 1px solid yellowgreen;
+  border-radius: 100px;
+}
+a {
+  text-decoration: none;
+}
