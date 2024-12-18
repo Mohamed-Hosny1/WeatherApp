@@ -1,4 +1,5 @@
 getlocation();
+getLocationData();
 getcity();
 let allCities = {};
 
@@ -183,7 +184,7 @@ function getlocation() {
       },
       function (error) {
         console.log(error);
-        getcity("cairo");
+        getcity("Cairo");
       }
     );
   }

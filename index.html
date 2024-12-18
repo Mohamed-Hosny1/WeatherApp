@@ -15,7 +15,7 @@
           <div class="d-flex justify-content-center align-items-center">
             <i
               class="fa-solid fa-cloud"
-              style="color: grey; font-size: 80px"
+              style="color: lightgrey; font-size: 80px"
             ></i>
             <div class="ms-3">
               <h2 class="fs-3">Weather</h2>
@@ -31,13 +31,13 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon bg-light"></span>
+          <span class="navbar-toggler-icon bg-secondary"></span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav text-warning">
+          <ul class="navbar-nav">
             <li class="nav-item me-5">
               <a
-                class="nav-link active text-warning px-3"
+                class="nav-link active text-primary px-3"
                 aria-current="page"
                 href="#"
                 >Home</a
@@ -60,15 +60,15 @@
       </div>
     </nav>
     <section class="mb-5">
-      <div class="d-flex p-2 bg-transparent w-75 my-5 rounded-5 m-auto">
+      <div class="inputBox p-2 bg-transparent my-5 rounded-5 m-auto">
         <input
           type="search"
-          class="bg-transparent border border-info rounded-5 text-light flex-grow-1 px-3 fs-4"
+          class="findInput bg-transparent border border-primary rounded-5 px-3 fs-4 text-center d-block m-auto flex-grow-1"
           placeholder="Find Your Location"
           id="searchinput"
         />
         <button
-          class="btn btn-outline-info fs-5 rounded-5 px-5 py-2 ms-1"
+          class="btn btn-primary rounded-5 fs-6 px-sm-4 py-sm-2 ms-1 findBtn"
           id="searchbtn"
         >
           Find
@@ -85,7 +85,7 @@
       </div>
     </section>
     <footer class="bg-dark h-25 py-3 fixed-bottom" id="contact">
-      <div class="text-center my-5">
+      <div class="text-center mt-5 mb-3">
         <a href="mailto:hosny0169@gmail.com" target="_blank" class="me-5">
           <i class="fa-brands fa-google fs-3 text-light"></i>
         </a>
@@ -107,9 +107,12 @@
           <i class="fa-brands fa-twitter fs-3 text-light"></i>
         </a>
       </div>
-      <div class="bg-transparent border border-black w-50 d-flex m-auto mb-3">
-        <input type="email" class="bg-transparent flex-grow-1" />
-        <button class="btn btn-outline-info">Subscribe</button>
+      <div class="inputBox m-auto mb-3 d-flex border border-black rounded-3">
+        <input
+          type="email"
+          class="bg-transparent bg-transparent rounded-3 flex-grow-1"
+        />
+        <button class="btn btn-outline-info rounded-3">Subscribe</button>
       </div>
     </footer>
 

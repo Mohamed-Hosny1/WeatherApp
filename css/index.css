@@ -1,17 +1,46 @@
 body {
-  background-image: url(../images/rain-window-sill-water-drops-bokeh-wallpaper-preview.jpg);
+  background-image: url(../images/thunderstorm-with-golden-lightning-dark-background-dramatic-weather-capture_641503-10649.avif);
   background-size: cover;
   background-position: center;
 }
+.inputBox {
+  width: fit-content;
+}
 input::placeholder {
-  color: burlywood;
+  color: blue;
   font-size: 18px;
 }
 .nav-item .active,
-.nav-item a:focus {
+.nav-item a:hover {
   border: 1px solid yellowgreen;
-  border-radius: 100px;
+  border-radius: 100vh;
 }
 a {
   text-decoration: none;
+}
+.findInput {
+  color: lawngreen;
+}
+.findBtn {
+  margin-top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media screen and (min-width: 600px) {
+  .findBtn {
+    margin-top: 0px;
+    position: static;
+    left: 0;
+    transform: translate(0);
+  }
+  .inputBox {
+    width: 50%;
+    display: flex;
+  }
+}
+footer i:hover {
+  color: blueviolet !important;
+  transform: scale(1.2);
 }
